@@ -1,0 +1,61 @@
+
+
+body{
+    background-color: #bdbdbd;
+    margin: 0px;
+}
+
+div{
+
+    box-sizing: border-box;
+}
+header{
+
+    background-color: white;
+    padding: 10px;
+    position: sticky;
+    top:0 ;
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(77, 75, 75);
+    font-family: 'Rubik', sans-serif;
+    margin: 0;}
+
+div .post {
+    background-color: white;
+    margin-top: 10px;
+
+}
+div .post  img{
+    
+    width: 100%;
+}
+div .post  h2, div.post p{
+    padding: 5px;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+div .post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+
+}
+div .post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    font-size: small;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    color: gray;
+
+}
+div .container {
+
+    width: 600px;
+    margin: auto;
+}
